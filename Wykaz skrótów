@@ -1,0 +1,64 @@
+yi 		- zmienna zależna, w tej pracy i-ty wskaźnik kinetyczny BZTn o jednostce 			właściwej dla danego wskaźnika, gdzie: 
+y1 		- t0 - zakończenie fazy opóźnienia wzrostu mikroorganizmów, początek fazy 			wzrostu wykładniczego [doba]
+y2 		- t1 - zakończenie fazy wzrostu wykładniczego, rozpoczęcie fazy reakcji 				jednocząsteczkowej [doba]
+y3 		- t2 - zakończenie fazy reakcji jednocząsteczkowej, rozpoczęcie fazy respiracji 			endogenicznej [doba]
+y4 		- L0 - końcowe BZT węglowe [mgO2. dm-3]
+y5 		- L1 - ilość substancji organicznych pozostałych po czasie t [mgO2. dm-3]
+y6 		- y1 - zużycie tlenu do chwili t1[mgO2. dm-3]
+y7 		- y2 - zużycie tlenu do chwili t2[mgO2. dm-3]
+y8 		- K1 - stopień trudności (łatwości) biodegradacji zanieczyszczeń [doba-1]
+y9 		- Kw - wykładniczy współczynnik wzrostu mikroorganizmów [doba-1]
+xi 		- zmienna niezależna, w niniejszej pracy i-ty wskaźnik jakości badanych wód o 			jednostce właściwej dla danego wskaźnika, gdzie: 
+x1 		- Eh [mV]
+x2 		- Chl a [mg chl a . dm-3]
+x3 		- temperatura wody w chwili pobrania próbki wody do badań [OC]
+x4 		- pH [jednostki pH]
+x5 		- COD-Mn [mgO2. dm-3]
+x6 		- COD-Cr [mgO2. dm-3]
+x7		- DO [mgO2. dm-3]
+x8		- N-NO3 [mg N-NO3. dm-3]
+x9		- N-NO2 [mg N-NO2. dm-3]
+x10		- N-NH4 [mg N-NH4. dm-3]
+x11 		- TN [mg N-NO3. dm-3]
+x12 		- SRP [mg PO43-. dm-3]
+x13		- TP [mg PO43-. dm-3]
+x14		- TH [mg CaCO3. dm-3]
+x15 		- Ca2+[mg Ca2+. dm-3]
+x16		- Mg2+[mg Mg2+. dm-3]
+x17		- Cl- [mg Cl-. dm-3]
+x18		- SO42- [mg SO42-. dm-3]
+x19 		- HCO3- [mg HCO3-. dm-3]
+x20 		- Fetot [mg Fe. dm-3]
+x21		- Mntot [mg Mn. dm-3]
+x22		- Pb [mg Pb. dm-3]
+x23 		- Zn[mg Zn. dm-3]
+x24		- Cu [mg Cu dm-3]	
+zi 		- zmienna niezależna, w niniejszej pracy i-ty wskaźnik atmosferyczny o jednostce 		właściwej dla danego wskaźnika, gdzie: 
+z1 		- temperatura powietrza o godzinie 700 w dniu poboru próbek do badań [OC]
+z2 		- temperatura powietrza o godzinie 700 w dniu poprzedzającym pobór próbek do 			badań [OC]
+z3 		- temperatura powietrza o godzinie 700 na dwa dni przed poborem próbek do badań 		[OC]
+z4 		- średnia prędkość wiatru w dniu poboru próbek do badań [km/h]
+z5 		- średnia prędkość wiatru w dniu poprzedzającym pobór próbek do badań [km/h]
+z6 		- średnia prędkość wiatru na dwa dni przed poborem próbek do badań [km/h]
+z7 		- wiatry napędzające w dniu poboru próbek do badań
+z8 		- wiatry napędzające w dniu poprzedzającym pobór próbek do badań
+z9 		- wiatry napędzające na dwa dni przed poborem próbek do badań
+z10 		- wiatry hamujące w dniu poboru próbek do badań
+z11 		- wiatry hamujące w dniu poprzedzającym pobór próbek do badań
+z12 		- wiatry hamujące na dwa dni przed poborem próbek do badań
+z13 		- występowanie zjawiska konwekcji
+z14 		- suma godzin słonecznych w dniu poboru próbek do badań [h]
+z15 		- suma godzin słonecznych w dniu poprzedzającym  pobór próbek do badań [h]
+z16 		- suma godzin słonecznych na dwa dni przed poborem próbek do badań [h]
+z17 		- stopień zachmurzenia w dni poboru próbek
+z18 		- stopień zachmurzenia dzień przed poborem próbek
+z19		- stopień zachmurzenia dwa dni przed poborem próbek
+z20 		- suma opadów w miesiącu poboru próbek wody do badań [mm]
+z21 		- suma opadów miesiąc przed poborem próbek wody do badań [mm]
+z22 		- suma opadów dwa miesiące przed poborem próbek wody do badań [mm]
+z23 		- suma opadów trzy miesiące przed poborem próbek wody do badań [mm]
+Ti 		- zmienna niezależna, w niniejszej pracy i-ty (i=1-4) wskaźnik pory roku, zapisywany kodem 1 - dla występowania danej pory roku oraz kodem 0 - dla pozostałych pór roku, gdzie:
+T1 		- okres zimy
+T2 		- okres wiosny
+T3 		- okres lata
+T4 		- okres jesieni
